@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, StyleSheet, TouchableOpacity, Platform } from 'react-native';
 import { TextInput, useTheme } from 'react-native-paper';
-import Feather from 'react-native-vector-icons/Feather';
+import { Feather } from '@expo/vector-icons';
 
 const ChatInput = ({ onSend }) => {
   const [message, setMessage] = useState('');
